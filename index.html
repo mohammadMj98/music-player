@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/72d72acd48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>music player</title>
+</head>
+<body>
+    
+   <div class="container">
+        <!-- <div class="top-bar">
+           <h1>now playing</h1>
+        </div> -->
+        <div class="music-image">
+            <img src="images/music-1.jpg" alt="" id="music-cover">
+        </div>
+        <div class="music-details">
+            <p class="singer-name"></p>
+            <p class="singer-music-name"></p>
+        </div>
+        <div class="music-timeline">
+            <audio src="songs/1. Eagles - Hotel California (2013 Remaster) (320).mp3" id="audio"></audio>
+        </div>
+        <div class="progres-container">
+            <div class="progress"></div>
+        </div>
+        <div class="audio-info">
+            <p class="current-time">00:00</p>
+            <p class="end-time">00:00</p>
+        </div>
+        <div class="music-control">
+            <div class="repeat">
+                <i id="repeat-plist" class="material-icons" title="Playlistlooped">repeat</i>
+            </div>
+            <div class="navigaitor">
+                <div class="prev">
+                    <i id="prev" class="material-icons">skip_previous</i>
+                </div>
+            <div class="play-pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <div class="next">
+                <i id="next" class="material-icons">skip_next</i>
+            </div></div>
+            <div class="more-music">
+                <i id="more" class="list material-icons">queue_music</i>
+            </div>
+        </div>
+        <div class="music-wrapper">
+
+            <div class="row">
+                <i class="list material-icons">queue_music</i>
+                <span>Music list</span>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul class="list-music-item">
+    
+            </ul>
+        </div>
+    
+
+    </div> 
+   
+    <script src="js/main.js"></script>
+    <script src="js/music.js"></script>
+</body>
+</html>
